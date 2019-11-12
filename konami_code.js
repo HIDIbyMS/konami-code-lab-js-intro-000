@@ -16,9 +16,9 @@ const codes = [
 let index = 0;
 document.body.eventListener('keydown', init)
 
-function init() {
-  
-
+function init(e) {
+    const key = e.key;
+    if (key)
 }
 
 
@@ -26,15 +26,7 @@ function init() {
 // {
 // // your code here - attach event listener to document.body and check for 'keydown' events
 // const key = e.key;
-// if (key === codes[index]){
-//   index++;
-//   if(index === codes.length){
-//     alert("Hurray!");
-//     index = 0;
-//   }
-// } else {
-//   index = 0;
-// }
+// 
 
 
 //   // if user presses all 10 keys in correct order alert() congratulations
