@@ -17,7 +17,7 @@ let index = 0;
 
 function init() {
 // your code here - attach event listener to document.body and check for 'keydown' events
-Keyboard.Event.();
+.();Keyboard.Event
   // if user presses all 10 keys in correct order alert() congratulations
   // if not pressed correctly no alert keep listening for ten keydown in correct order
 
