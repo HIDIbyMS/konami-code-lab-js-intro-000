@@ -14,15 +14,10 @@ const codes = [
 
 // keep track of index outside of event handler
 let index = 0;
+document.body.addEventListener('keydown', init);
 
-function init() {
-  document.body.addEventListener('keydown', (event) => {
-    
-  });
-  
-  
-  
-    const key = e.key;
+function init(event) {
+    let key = event.which;
     if (key === codes[index]){
       index++;
       if (index === codes.length){
