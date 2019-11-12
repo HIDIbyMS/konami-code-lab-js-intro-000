@@ -15,9 +15,11 @@ const codes = [
 // keep track of index outside of event handler
 let index = 0;
 
-
+// function invokes the event listener
 function init() {
+  // attach event listener to document.body - check for keydown events
   document.body.addEventListener('keydown', function(event){
+    // press all ten keys in correct order congrats alert
     const key = event.key;
     console.log(key);
     if (key === codes[index]){
@@ -26,7 +28,9 @@ function init() {
         alert("Hurray!");
       }
     
-    } else {
+    } 
+    // nothing happens if not correctly pressed
+    else {
       index = 0;
     }
   });
