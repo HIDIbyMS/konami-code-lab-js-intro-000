@@ -15,9 +15,13 @@ const codes = [
 // keep track of index outside of event handler
 let index = 0;
 
-document.body.eventListener('keydown', init);
-
-function init(e) {
+function init() {
+  document.body.addEventListener('keydown', (event) => {
+    
+  });
+  
+  
+  
     const key = e.key;
     if (key === codes[index]){
       index++;
