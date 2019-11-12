@@ -1,4 +1,4 @@
-// keys to press
+// keys to press in this order
 const codes = [
   "ArrowUp",
   "ArrowUp",
@@ -12,15 +12,14 @@ const codes = [
   "a"
 ];
 
-  // your code here - attach event listener to document.body and check for 'keydown' events
-  // if user presses all 10 keys in correct order alert() congratulations
-  // if not pressed correctly no alert keep listening for ten keydown in correct order
-
+// keep track of index outside of event handler
 let index = 0;
 
 function init() {
-  // keep track of index outside of event handler
-
+// your code here - attach event listener to document.body and check for 'keydown' events
+Key
+  // if user presses all 10 keys in correct order alert() congratulations
+  // if not pressed correctly no alert keep listening for ten keydown in correct order
 
 }
 
